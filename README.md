@@ -58,11 +58,15 @@ Random Forest performed best, and I tuned it further using GridSearchCV (testing
 | Decision Tree | 0.82 | 0.65 | 0.36 | 0.47 |
 | **Tuned Random Forest (final)** | 0.77 | 0.49 | **0.58** | **0.53** |
 
+![Confusion Matrix](confusion_matrix.png)
+
 The tuned Random Forest ended up with slightly lower accuracy but a much better recall and F1-score. 
 In this project, I prioritized recall because identifying more potential defaulters was considered more important than maximizing overall accuracy.
 
 **Top predictive feature:** PAY_0 (the customer's most recent repayment status) — by far the 
 strongest signal for default.
+
+![Feature Importance](feature_importance.png)
 
 ## Tools used
 
