@@ -73,10 +73,15 @@ strongest signal for default.
 
 ## Project structure
 ├── 01_EDA.ipynb # Exploratory data analysis
+
 ├── 02_Preprocessing.ipynb # Data cleaning and preparation
+
 ├── 03_Model_Building.ipynb # Model training, tuning, evaluation
+
 ├── cleaned_credit_default.csv # Cleaned dataset
+
 ├── final_model_random_forest.pkl # Saved final model
+
 └── README.md
 
 # What I'd try next
